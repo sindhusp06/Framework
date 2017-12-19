@@ -16,6 +16,7 @@ public class Rowcount
 		Workbook wb=WorkbookFactory.create(new FileInputStream(path));
 		int rc=wb.getSheet("Sheet1").getLastRowNum()+1;
 		System.out.println(rc);
+		System.out.println("------");
 		
 		
 	}
